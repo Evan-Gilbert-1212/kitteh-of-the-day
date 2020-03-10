@@ -1,12 +1,90 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 16px / 1 serif;
+  font-family: "Lora", Times, serif;
 }
 
 html {
   height: 100%;
+  background-color: #008AA1;
+  margin-top: 0.7rem;
+  margin-left: 18rem;
+  margin-right: 18rem;
 }
 
 body {
   margin: 0;
-  min-height: 100%;
+  background-color: #DDF2F3;
+}
+
+main {
+  display: flex;
+  padding: 1rem;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  color: #415467;
+  padding: 1rem;
+  font-size: 375%;
+  margin: 0;
+}
+
+.top-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.bottom-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.top-nav {
+  background-color: #00bfd5;
+  color: #F6FCFE;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.bottom-nav {
+  background-color: #D3D3D3;
+  color: #120D07;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+li {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.kitteh-feature {
+  border: 2px;
+  border-style: solid;
+  border-color: #42A9BA;
+  padding: .3rem;
+}
+
+.about-kitteh {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+h3 {
+  padding: .4rem;
+  margin: 0;
+  color: #415467;
+}
+
+h2 {
+  color: #415467;
 }
